@@ -19,5 +19,6 @@ while True:
         else:
             print(f'Congratulations! You guessed the number {Computer_number}!')
             break
-    print(f'Sorry, you ran out of guesses. The number was {Computer_number}.')
+    if Chance == 0:
+        print(f'Sorry, you ran out of guesses. The number was {Computer_number}.')
     break
